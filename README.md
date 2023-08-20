@@ -10,15 +10,12 @@
 
 文件夹简要说明：
 1、Client_fileRead文件夹保存的是负责下载数据/文件的上位机源码；
-2、ServerUUV1_fileSend_beifen、ServerUUV2_fileSend_beifen、ServerUUV3_fileSend_beifen分别是
-      保存发送数据的模拟下位机的源码。
-    【注意】在使用前，你需要先自行选择一个目标文件夹作为待传输的文件夹。
+2、ServerUUV1_fileSend_beifen、ServerUUV2_fileSend_beifen、ServerUUV3_fileSend_beifen分别是保存发送数据的模拟下位机的源码。在使用前，你需要先自行选择一个目标文件夹作为待传输的文件夹。
 
 其他说明：
 1、项目均在Qt Creator 10.0.1(Community) 、Windows环境下开发。
-2、为了方便测试，下位机均为静态IP（实际环境也是），下位机模拟方式为IP地址设为环回地址127.0.0.1，但是各下位机
-监听的端口不同，以模拟实际船舱环境IP不同但监听端口相同的实际情况。
+2、为了方便测试，下位机均为静态IP（实际环境也是），下位机模拟方式为IP地址设为环回地址127.0.0.1，但是各下位机监听的端口不同，以模拟实际船舱环境IP不同但监听端口相同的实际情况。
 3、该测试程序已实际应用（需要根据不同情况根据改进）。
 
-// 作者：jiajunXiong
-// 转载请注明出处。
+作者：jiajunXiong
+转载请注明出处。
