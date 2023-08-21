@@ -13,7 +13,7 @@
 2. "ServerUUV1_fileSend_beifen"、"ServerUUV2_fileSend_beifen"、"ServerUUV3_fileSend_beifen" 分别保存了模拟下位机发送数据的源代码。在使用前，您需要自行选择一个目标文件夹作为待传输的文件夹。
 
 其他说明：
-1. 本项目在 Windows 环境下使用 Qt Creator 10.0.1 (Community) 进行开发。
+1. 本项目在 Windows 环境下使用 Qt Creator 10.0.1 (Community) 进行开发，qmake方式构建，构建套件为Desktop Qt 5.15.2 MinGW 32-bit。
 2. 为方便测试，下位机均采用静态 IP 地址（实际环境也如此）。模拟时将 IP 地址设置为环回地址 127.0.0.1，但各下位机监听的端口不同，以模拟实际船舱环境中 IP 不同但监听端口相同的情况。
 3. 该测试程序已经在实际应用中使用（根据实际情况可能需要进行修改）。
 
@@ -35,7 +35,7 @@ Folder Overview:
 2. The "ServerUUV1_fileSend_beifen," "ServerUUV2_fileSend_beifen," and "ServerUUV3_fileSend_beifen" folders contain source codes for simulating sending data on the lower computers. Before using, you need to select a target folder as the source folder for transmission.
 
 Other Notes:
-1. The project is developed using Qt Creator 10.0.1 (Community) in a Windows environment.
+1. This project was developed using Qt Creator 10.0.1 (Community) in a Windows environment, built in qmake mode, with a build kit of Desktop Qt 5.15.2 MinGW 32 bit.
 2. For testing convenience, the lower computers have static IP addresses (which is also the case in the actual environment). The simulation uses the IP address set to the loopback address 127.0.0.1, but each lower computer listens on a different port to simulate the situation where the IP addresses are different but the listening ports are the same.
 3. This test program has been used in practical applications (modifications may be necessary according to different situations).
 
